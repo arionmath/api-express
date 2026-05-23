@@ -1,3 +1,6 @@
+/**
+ * Classe que representa um pedido no sistema de e-commerce.
+ */
 class Pedido {
   constructor({ id, usuarioId, valorFinal, status }) {
     this.id = id;
