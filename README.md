@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/github/arionmath/api-express/graph/badge.svg?token=WJYX74JSI9)](https://codecov.io/github/arionmath/api-express)
+
 # API Express
 
 ### Como rodar
