@@ -12,15 +12,15 @@ jobs:
 
     steps:
     - name: Baixar codigo do repositorio
-      uses: actions/checkout@v3
+      uses: actions/checkout@v6
 
     - name: Configurar o Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v6
       with:
         node-version: 25
 
     - name: Instalar Dependencias
-      run: npm install
+      run: npm ci
 
     - name: Executar os Testes Automatizados
       run: npm test -- --coverage
